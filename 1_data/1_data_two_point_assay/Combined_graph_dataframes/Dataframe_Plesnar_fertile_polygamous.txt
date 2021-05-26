@@ -1,0 +1,3 @@
+"Paper_id" "Sel_temp" "New_X_axis" "Rel_fitness" "CI" "Replicate"
+"1" "Plesnar_fertile_polygamous" "28" "-4" "0.850899742930591" NA NA
+"2" "Plesnar_fertile_polygamous" "28" "0" "1.03870967741935" NA NA

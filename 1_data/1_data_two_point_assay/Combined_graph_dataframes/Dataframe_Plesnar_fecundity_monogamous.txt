@@ -1,0 +1,3 @@
+"Paper_id" "Sel_temp" "New_X_axis" "Rel_fitness" "CI" "Replicate"
+"1" "Plesnar_fecundity_monogamous" "28" "-4" "0.671938225895516" NA NA
+"2" "Plesnar_fecundity_monogamous" "28" "0" "0.519722903325634" NA NA

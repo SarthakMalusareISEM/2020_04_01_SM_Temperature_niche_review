@@ -1,0 +1,16 @@
+ "Paper_title" "paper_reference" "fitness_proxy_used"  "data_extraction_method " "Mean_sex_not_considered" "standard_error" "Confidence_interval" "Mean_male" "Standard_error_male " "Mean_female" "Standard_error_female" "median_female" "median_male" "standard_deviation" "variance" "effect_sizes" "Selection_temperature" "Assay_temperature" "Control_or_selection_line" "Time_series" "Replicate" "Male_data" "Female_data" "Culture_plate" "Sex_not_considered_data" "Technical_replicate"
+15 "Adaptation of Paramecium caudatum to variable conditions of temperature
+Stress" "(Duncan et al., 2011)"                         
+                           
+     "From Author" 1.86680939 0.03978833           23 23 "Constant 23"       
+      1.71368945 0.02705848           23 35 "Constant 23"       
+      1.79912304 0.04371408           35 23 "Constant 35"       
+      1.78170971 0.05698839           35 35 "Constant 35"       
+      1.93608946 0.02699966           26 23 "Variable"       
+      1.86008026 0.05321379           26 35 "Variable"       
+      1.88941415 0.03613104           28 23 "Variable"       
+      1.78990896 0.02950127           28 35 "Variable"       
+      1.8985603 0.03771499           30 23 "Variable"       
+      1.76073767 0.03375559           30 35 "Variable"       
+      1.77511522 0.0648202           32 23 "Variable"       
+      1.81570388 0.04598464           32 35 "Variable"       

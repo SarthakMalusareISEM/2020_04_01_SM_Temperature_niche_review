@@ -1,0 +1,7 @@
+ "Paper_title" "paper_reference" "fitness_proxy_used"  "Species" "data_extraction_method " "Mean_sex_not_considered" "standard_error" "Confidence_interval " "Mean_male" "Standard_error_male " "Mean_female" "Standard_error_female" "median_female" "median_male " "standard_deviation" "variance " "effect_sizes" "Selection_temperature" "Assay_temperature" "Control_or_selection_line" "Time_series " "Replicate" "Male_data " "Female_data " "Culture_plate " "Sex_not_considered_data " "Technical_replicate"
+                            
+ "Evolutionary adaptation to temperature .4. Adaptation of Escherichia coli at a niche boundary" "Mongold_et_al" "Fitness relative to ancestor"    1.09533907995186  0.050485753567189          20 20        
+       1.06065892655887  0.042719345319172          20 27        
+       1.05697060696646  0.059709012521263          20 32        
+       0.948427302785328  0.057767273794089          20 37        
+       0.827662305832961  0.138349977632467          20 39.8        

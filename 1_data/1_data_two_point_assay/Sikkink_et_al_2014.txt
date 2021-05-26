@@ -1,0 +1,21 @@
+ "Paper_title" "paper_reference" "fitness_proxy_used"  "data_extraction_method " "Mean_sex_not_considered" "standard_error" "Confidence_interval" "Mean_male" "Standard_error_male " "Mean_female" "Standard_error_female" "median_female" "median_male" "standard_deviation" "variance" "effect_sizes" "Selection_temperature" "Assay_temperature" "Control_or_selection_line" "Time_series" "Replicate" "Male_data" "Female_data" "Culture_plate" "Sex_not_considered_data" "Technical_replicate"
+21 "The transgenerational effects of heat stress in the nematode
+Caenorhabditis remanei are negative and rapidly eliminated under direct
+selection for increased stress resistance in larvae" "(Sikkink et al., 2014)" "Probability of survival       conditional means"  "from graph" 0.232558139534884  0.190697674418605          20 20 "Ancestor  20 "       
+      0.979069767441861  0.07906976744186          20 30 "Ancestor  20 "       
+      0.495348837209302  0.198837209302325          30 20 "Ancestor  30 "       
+      0.667441860465116  0.211627906976744          30 30 "Ancestor  30 "       
+                           
+                           
+                           
+      0.308139534883721  0.11046511627907          20 20 "Control  20"       
+      0.986046511627907  0.151162790697674          20 30 "Control  20"       
+      0.472093023255814  0.132558139534884          30 20 "Control  30"       
+      0.669767441860465  0.134883720930232          30 30 "Control  30"       
+                           
+                           
+                           
+      0.923255813953488  0.125581395348837          20 20 "Heat selected 20"       
+      0.825581395348837  0.169767441860465          20 30 "Heat selected 20"       
+      0.830232558139535  0.109302325581395          30 20 "Heat selected 30"       
+      0.82093023255814  0.190697674418604          30 30 "Heat selected 30"       

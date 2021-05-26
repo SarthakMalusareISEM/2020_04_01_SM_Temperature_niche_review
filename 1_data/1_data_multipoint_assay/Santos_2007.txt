@@ -1,0 +1,11 @@
+ "Paper_title" "paper_reference" "fitness_proxy_used"  "Species" "data_extraction_method " "Mean_sex_not_considered" "standard_error" "Confidence_interval " "Mean_male" "Standard_error_male " "Mean_female" "Standard_error_female" "median_female" "median_male " "standard_deviation" "variance " "effect_sizes" "Selection_temperature" "Assay_Temperature" "Control_or_selection_line" "Time_series " "Replicate" "Male_data " "Female_data " "Culture_plate " "Sex_not_considered_data " "Technical_replicate"
+                            
+"Evolution of total net fitness in thermal lines: Drosophila subobscura likes it 'warm'" "(Santos, 2007)"  "Average fitness (relative to Va/+ flies)"   "From graph" 1.35231143552311  0.192700729927007          13 13        
+       1.29209245742092  0.191362530413625          13 18        
+       1.1301703163017  0.190024330900243          13 22        
+       1.55036496350365  0.190024330900243          18 13        
+       1.27335766423358  0.194038929440389          18 18        
+       1.43126520681265  0.192700729927007          18 22        
+       1.36034063260341  0.190024330900243          22 13        
+       1.40985401459854  0.191362530413625          22 18        
+       1.69756690997567  0.192700729927007          22 22        

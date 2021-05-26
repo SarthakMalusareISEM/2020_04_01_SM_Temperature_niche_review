@@ -1,0 +1,42 @@
+"Paper_title" "paper_reference" "fitness_proxy_used" "Mean" "Relative_mean" "Error"  "Selection_temperature" "Assay_temperature_in_paper" "Control_or_selection_line" "Assay_temperature"         
+"Adaptation of phytoplankton to a decade of experimental warming linked to increased photosynthesis" "(Schaum et al., 2017)" "ln µmax (T)(d−1)" 0.58286737  0.21210086  "Ambient" 16           
+   0.61490392  0.08738652  "Ambient" 18           
+   0.96488803  0.10295771  "Ambient" 22           
+   1.11728864  0.07631792  "Ambient" 26           
+   1.17189927  0.13149347  "Ambient" 30           
+   0.74861254  0.09815841  "Ambient" 34           
+   -0.50393611  0.20127416  "Ambient" 38           
+   -0.50998563  0.126584  "Ambient" 42           
+   0.41739041  0.13417484  "Ambient+4" 16           
+   0.52957159  0.15400809  "Ambient+4" 18           
+   0.84187918  0.08074502  "Ambient+4" 22           
+   0.94222914  0.11718982  "Ambient+4" 26           
+   1.22543005  0.07023644  "Ambient+4" 30           
+   1.28774499  0.03190885  "Ambient+4" 34           
+   -0.34313725  0.12457233  "Ambient+4" 38           
+   0.09230855  0.26490511  "Ambient+4" 42           
+                   
+                   
+                   
+                   
+  "Competition coefficinet (µ_i - µ_j)"                 
+   0.4433134  0.11573928  "Ambient+4" 16           
+   0.1962049  0.13787164  "Ambient+4" 16           
+   0.2360465  0.24847435  "Ambient+4" 16           
+   0.1721581  0.09667591  "Ambient+4" 16           
+   0.3621981  0.17637862  "Ambient+4" 16           
+   0.3284939  0.16838405  "Ambient+4" 16           
+   0.329093  0.13164924  "Ambient+4" 16           
+   0.2983894  0.2128836  "Ambient+4" 16           
+   0.9043028  0.48384355  "Ambient+4" 34           
+   0.6241474  0.4459748  "Ambient+4" 34           
+   1.0709809  0.4562848  "Ambient+4" 34           
+   1.0099543  0.60141763  "Ambient+4" 34           
+   0.8018697  0.31129292  "Ambient+4" 34           
+   1.0670227  0.54698088  "Ambient+4" 34           
+   0.9041094  0.45355637  "Ambient+4" 34           
+   1.1457858  0.47492825  "Ambient+4" 34           
+                   
+                   
+  "Competitive fitness of the warmed relative to the ambient isolates" 0.2957372  0.18   16           16
+   0.9410216  0.49   34           34

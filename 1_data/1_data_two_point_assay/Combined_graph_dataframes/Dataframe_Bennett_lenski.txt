@@ -1,0 +1,18 @@
+"Paper_id" "Sel_temp" "New_X_axis" "Rel_fitness" "CI" "Replicate"
+"1" "Bennett_lenski" NA NA NA NA NA
+"2" "Bennett_lenski" "20" "0" "1.153" "0.057" NA
+"3" "Bennett_lenski" NA NA NA NA NA
+"4" "Bennett_lenski" "20" "0" "1.098" "0.032" NA
+"5" "Bennett_lenski" NA NA NA NA NA
+"6" "Bennett_lenski" "20" "0" "1.113" "0.051" NA
+"7" "Bennett_lenski" NA NA NA NA NA
+"8" "Bennett_lenski" "20" "0" "1.116" "0.054" NA
+"9" "Bennett_lenski" NA NA NA NA NA
+"10" "Bennett_lenski" NA NA NA NA NA
+"11" "Bennett_lenski" "20" "20" "0.798" "0.222" NA
+"12" "Bennett_lenski" NA NA NA NA NA
+"13" "Bennett_lenski" "20" "20" "0.87" "0.138" NA
+"14" "Bennett_lenski" NA NA NA NA NA
+"15" "Bennett_lenski" "20" "20" "1.048" "0.107" NA
+"16" "Bennett_lenski" NA NA NA NA NA
+"17" "Bennett_lenski" "20" "20" "0.97" "0.038" NA

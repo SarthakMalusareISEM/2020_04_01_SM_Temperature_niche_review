@@ -1,0 +1,58 @@
+ "Paper_title" "paper_reference" "fitness_proxy_used"  "Species" "data_extraction_method " "Mean_sex_not_considered" "standard_error" "Confidence_interval" "Mean_male" "Standard_error_male " "Mean_female" "Standard_error_female" "median_female" "median_male" "standard_deviation" "variance" "effect_sizes" "Selection_temperature" "Assay_temperature" "Control_or_selection_line" "Time_series" "Replicate" "Male_data" "Female_data" "Culture_plate" "Sex_not_considered_data" "Technical_replicate"
+ "Evolutionary Response of Escherichia-Coli to Thermal-Stress" "(Lenski and Bennett, 1993)" "Fitness relative to ancestor"    0.992592592592592 "not available "           42 19.5 "42° C"       
+       1.0462962962963            42 22.3 "42° C"       
+       1.02222222222222            42 27 "42° C"       
+       1.03148148148148            42 32 "42° C"       
+       1.02962962962963            42 37 "42° C"       
+       1.08148148148148            42 39.8 "42° C"       
+       1.12222222222222            42 41 "42° C"       
+       1.44444444444444            42 41.8 "42° C"       
+                            
+                            
+       0.99074074074074            37 19.5 "37° C"       
+       1.02037037037037            37 22.3 "37° C"       
+       1.02407407407407            37 27 "37° C"       
+       1.00555555555556            37 32 "37° C"       
+       1.08148148148148            37 37 "37° C"       
+       0.975925925925926            37 39.8 "37° C"       
+       0.7            37 41 "37° C"       
+       0.581481481481482            37 41.8 "37° C"       
+                            
+                            
+       1.02600997942837            32 19.5 "32° C"       
+       1.04984243007835            32 22.3 "32° C"       
+       1.12600122554383            32 27 "32° C"       
+       1.10899680483214            32 32 "32° C"       
+       1.05151661049591            32 37 "32° C"       
+       0.897218453188602            32 39.8 "32° C"       
+       0.828194073620168            32 41 "32° C"       
+                            
+                            
+       0.971311475409836            "32/42" 19.5        
+       1.0327868852459            "32/42" 22.3        
+       1.04508196721312            "32/42" 27        
+       1.00409836065574            "32/42" 32        
+       1.06147540983607            "32/42" 37        
+       1.04918032786885            "32/42" 39.8        
+       1.01229508196721            "32/42" 41        
+       1.24590163934426            "32/42" 41.8        
+                            
+                            
+                            
+   "Cell density( 10^6cells per ml)"    41.1  1           32 "Anc "       10
+       33.2  0.6           37 "Anc "       
+       7.6  0.4           42 "Anc "       
+                            
+   "total biomass"    25.4  0.3           32 "Anc "       10
+       23.7  1.2           37 "Anc "       
+       12.8  0.5           42 "Anc "       
+                            
+                            
+                            
+                            
+                            
+   "Mean frelative fitness "    1.078            37 37        
+       1.104            32 32        
+       1.447            42 42        
+       1.037            "32/42" 32        
+       1.156            "32/42" 42        

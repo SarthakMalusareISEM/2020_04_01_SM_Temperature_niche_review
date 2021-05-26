@@ -1,0 +1,17 @@
+"Paper_title" "paper_reference" "fitness_proxy_used" "Mean" "Relative mean" "Error"  "Selection_temperature" "Assay_temperature_in_paper" "Control_or_selection_line" "Assay_temperature"
+"Adaptation of phytoplankton to a decade of experimental warming linked to increased photosynthesis" "(Schaum et al., 2017)" "ln µmax (T)(d−1)" 0.58286737  0.21210086  "Ambient" 16  
+   0.61490392  0.08738652  "Ambient" 18  
+"splice"   0.96488803  0.10295771  "Ambient" 22  
+"splice"   1.11728864  0.07631792  "Ambient" 26  
+"splice"   1.17189927  0.13149347  "Ambient" 30  
+"splice"   0.74861254  0.09815841  "Ambient" 34  
+"splice"   -0.50393611  0.20127416  "Ambient" 38  
+"splice"   -0.50998563  0.126584  "Ambient" 42  
+"splice"   0.41739041  0.13417484  "Ambient+4" 16  
+   0.52957159  0.15400809  "Ambient+4" 18  
+   0.84187918  0.08074502  "Ambient+4" 22  
+   0.94222914  0.11718982  "Ambient+4" 26  
+   1.22543005  0.07023644  "Ambient+4" 30  
+   1.28774499  0.03190885  "Ambient+4" 34  
+   -0.34313725  0.12457233  "Ambient+4" 38  
+   0.09230855  0.26490511  "Ambient+4" 42  

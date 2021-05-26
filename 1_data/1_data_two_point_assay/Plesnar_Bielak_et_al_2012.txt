@@ -1,0 +1,22 @@
+ "Paper_title" "paper_reference" "fitness_proxy_used"  "data_extraction_method " "Mean_sex_not_considered" "standard_error" "Confidence_interval" "Mean_male" "Standard_error_male" "Mean_female" "Standard_error_female"  "median" "standard_deviation" "variance" "effect_sizes" "Selection_temperature" "Assay_temperature" "Control_or_selection_line"  "Replicate" "Male_data" "Female_data" "Culture_plate" "Sex_not_considered_data"
+4 "Mating system affects population
+performance and extinction risk under
+environmental challenge" "(Plesnar-Bielak et al., 2012)"   "from graph "                     
+   "fecundity"        135.169164882227 6.16702355460384      24 24 "Control monogamous 20"      
+           51.4004282655247 6.93790149892934      24 28 "Control monogamous 20"      
+           90.8253288467421 8.47965738758029      28 24 "Monogamous 28"      
+           26.7139798103395 13.4903640256959      28 28 "Monogamous 28"      
+           142.862037320281 5.7815845824411      24 24 "Control polygamous 20"      
+           73.3545426736005 6.93790149892934      24 28 "Control polygamous 20"      
+           118.945243193637 5.78158458244113      28 24 "Polygamous 28"      
+           88.3670847353931 6.55246252676659      28 28 "Polygamous 28"      
+                          
+                          
+   "female fertility (% of fertile females)"        82.089552238806 6.09808102345416      24 24 "Control monogamous 20"      
+           50.1918976545842 6.09808102345414      24 28 "Control monogamous 20"      
+           77.1641791044776 7.73987206823026      28 24 "Monogamous 28"      
+           26.2686567164179 7.97441364605545      28 28 "Monogamous 28"      
+           91.2366737739872 6.33262260127933      24 24 "Control polygamous 20"      
+           72.7078891257996 6.33262260127931      24 28 "Control polygamous 20"      
+           77.6332622601279 6.09808102345416      28 24 "Polygamous 28"      
+           75.5223880597015 6.33262260127933      28 28 "Polygamous 28"      

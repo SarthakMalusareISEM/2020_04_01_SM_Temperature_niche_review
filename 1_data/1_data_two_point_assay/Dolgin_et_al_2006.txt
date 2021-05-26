@@ -1,0 +1,9 @@
+ "Paper_title" "paper_reference" "fitness_proxy_used"  "data_extraction_method " "Mean_sex_not_considered" "standard_error" "Confidence_interval" "Mean_male" "Standard_error_male" "Mean_female" "Standard_error_female" "median_female" "median_male" "standard_deviation" "variance" "effect_sizes" "Selection_temperature" "Assay_temperature" "Control_or_selection_line" "Time_series" "Replicate" "Male_data" "Female_data" "Culture_plate" "Sex_not_considered_data" "Technical_replicate"
+13                           
+ "Male Drosophila melanogaster have higher mating success when
+adapted to their thermal environment" "Dolgin et al., 2006" "Percentage of matings with males adapted to the experimental temperature"  "from graph"    66.8760936132983 2.80238407699036         18 "Set1"       
+         49.2415791776028 2.93908573928259         18 "Set2"       
+         69.8151793525809 3.07578740157481         18 "Set3"       
+         51.4971566054243 3.34919072615924         25 "Set1"       
+         56.9652230971129 2.93908573928259         25 "Set2"       
+         56.0083114610674 3.28083989501312         25 "Set3"       

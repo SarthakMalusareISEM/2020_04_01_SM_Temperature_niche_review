@@ -1,0 +1,6 @@
+ "Paper_title" "paper_reference" "fitness_proxy_used"  "data_extraction_method " "Mean_sex_not_considered" "standard_error" "Confidence_interval" "Mean_male" "Standard_error_male " "Mean_female" "Standard_error_female" "median_female" "median_male" "standard_deviation" "variance" "effect_sizes" "Selection_temperature" "Assay_temperature" "Control_or_selection_line" "Time_series" "Replicate" "Male_data" "Female_data" "Culture_plate" "Sex_not_considered_data" "Technical_replicate"
+14 "No Effect of Environmental Heterogeneity on the Maintenance of Genetic Variation in Wing Shape in Drosophila Melanogaster" "(Yeaman et al., 2010)" "progeny productivity"  "from paper"                      
+           67       16 16 "Cold 16"       
+           59.4       25 16 "Hot 25"       
+           84.3       16 25 "Cold 16"       
+           86.4       25 25 "Hot 25"       

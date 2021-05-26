@@ -1,0 +1,19 @@
+ "Paper_title" "paper_reference" "Paper_id" "fitness_proxy_used"  "data_extraction_method " "Mean_sex_not_considered" "standard_error" "Confidence_interval" "Mean_male" "Standard_error_male" "Mean_female" "Standard_error_female"  "median" "standard_deviation" "variance" "effect_sizes" "Selection_temperature" "Assay_temperature" "Control_or_selection_line"  "Replicate" "Male_data" "Female_data" "Culture_plate" "Sex_not_considered_data"
+3 "An experimental test of evolutionary trade-offs
+during temperature adaptation" "(Bennett and Lenski, 2007)"  "relative fitness through competition assays "  "From table in paper "                     
+   "Bennett lenski Anc at 32 evolved at 20"    1.153  0.057          20 20 "Anc at 32 evolved at 20"      
+                           
+   "Bennett lenski Anc at 37 evolved at 20"    1.098  0.032          20 20 "Anc at 37 evolved at 20"      
+                           
+   "Bennett lenski Anc at 42 evolved at 20"    1.113  0.051          20 20 "Anc at 42 evolved at 20"      
+                           
+   "Bennett lenski Ancestor at 32–42 evolved at 20"    1.116  0.054          20 20 "Ancestor at 32–42 evolved at 20"      
+                           
+                           
+   "Bennett lenski Anc at 32 evolved at 20"    0.798  0.222          20 40 "Anc at 32 evolved at 20"      
+                           
+   "Bennett lenski Anc at 37 evolved at 20"    0.87  0.138          20 40 "Anc at 37 evolved at 20"      
+                           
+   "Bennett lenski Anc at 42 evolved at 20"    1.048  0.107          20 40 "Anc at 42 evolved at 20"      
+                           
+   "Bennett lenski Ancestor at 32–42 evolved at 20"    0.97  0.038          20 40 "Ancestor at 32–42 evolved at 20"      

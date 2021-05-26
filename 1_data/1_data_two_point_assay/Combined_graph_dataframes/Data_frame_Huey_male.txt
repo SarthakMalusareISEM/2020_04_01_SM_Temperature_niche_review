@@ -1,0 +1,3 @@
+"Paper_id" "Sel_temp" "New_X_axis" "Rel_fitness" "CI" "Replicate"
+"1" "Huey_male" "16.5" "0" "0.97444352844188" NA NA
+"2" "Huey_male" "16.5" "8.5" "1.01358411703239" NA NA

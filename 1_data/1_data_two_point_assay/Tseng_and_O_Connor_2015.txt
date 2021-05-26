@@ -1,0 +1,11 @@
+ "Paper_title" "paper_reference" "fitness_proxy_used"  "data_extraction_method " "Mean_sex_not_considered" "standard_error" "Confidence_interval" "Mean_male" "Standard_error_male" "Mean_female" "Standard_error_female"  "median" "standard_deviation" "variance" "effect_sizes" "Selection_temperature" "Assay_temperature" "Control_or_selection_line"  "Replicate" "Male_data" "Female_data" "Culture_plate" "Sex_not_considered_data"
+12 "Predators modify the evolutionary
+response of prey to temperature change" "(Tseng and O’Connor, 2015)" "per capita growth rate, r"                       
+     "from graph" 0.256382875234355 0.042836234037285           18 18 "18 Predator"      
+      0.503727581449644 0.14647228412749           21 18 "21 Predator"      
+      0.444309579397927 0.085672468074569           18 18 "18Without predator"      
+      0.419436927376278 0.110545120096218           21 18 "21Without predator"      
+      0.351728041317344 0.040072606034879           18 21 "18 Predator"      
+      0.802199405709434 0.037308978032474           21 21 "21 Predator"      
+      0.379364321341398 0.044218048038488           18 21 "18Without predator"      
+      0.281255527256005 0.03039990802646           21 21 "21Without predator"      

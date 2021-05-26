@@ -1,0 +1,12 @@
+library(ggplot2)
+library(reshape)
+library(dplyr)
+library(ggpubr)
+df1<-read.table(file="Data_frame_Arribas.txt" ,header= TRUE,sep = " ")
+df1<-read.table(file="Data_frame_Cooper.txt" ,header= TRUE,sep = " ")
+df1<-read.table(file="Data_frame_Santos.txt" ,header= TRUE,sep = " ")
+df1<-read.table(file="Data_frame_Blaby_1.txt" ,header= TRUE,sep = " ")
+df1<-read.table(file="Data_frame_Blaby_2.txt" ,header= TRUE,sep = " ")
+df1<-read.table(file="Data_frame_Mongold.txt" ,header= TRUE,sep = " ")
+df1<-read.table(file="Data_frame_Lenski_and_Bennett.txt" ,header= TRUE,sep = " ")
+

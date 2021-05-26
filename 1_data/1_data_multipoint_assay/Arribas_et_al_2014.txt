@@ -1,0 +1,64 @@
+ "Paper_title" "paper_reference" "fitness_proxy_used"  "Species" "data_extraction_method " "Mean" "standard_error" "Confidence_interval" "Mean_male" "Standard_error_male " "Mean_female" "Standard_error_female" "median_female" "median_male" "standard_deviation" "variance" "effect_sizes" "Selection_temperature" "Assay_temperature" "Assay_temperature_in_paper" "Control_or_selection_line" "Time_series" "Replicate" "Male_data" "Female_data" "Culture_plate" "Sex_not_considered_data" "Technical_replicate" "Plotting"
+ "Adaptation to Fluctuating Temperatures in an RNA Virus
+Is Driven by the Most Stringent Selective Pressure" "(Arribas et al., 2014)" "Growth rate e log2 [(virusend –
+virus0)/virus0],"                          3 
+       24.3558282208589         0.276073619631902   37 37 37 "Selection line"  1      "Selection line 37(1)"
+       23.8803680981595         0.383435582822088   37 37 37 "Selection line"  2      "Selection line 37(2)"
+       23.7423312883436         0.276073619631905   30 37 37 "Selection line"  1      "Selection line 30(1)"
+       22.6380368098159         0.368098159509202   30 37 37 "Selection line"  2      "Selection line 30(2)"
+       22.239263803681         0.29141104294478   43 37 37 "Selection line"  1      "Selection line 43(1)"
+       23.3742331288344         0.276073619631902   43 37 37 "Selection line"  2      "Selection line 43(2)"
+       17.8132992327366         0.020460358056265   37 30 30 "Selection line"  1      "Selection line 37(1)"
+       17.4040920716113         0.429667519181585   37 30 30 "Selection line"  2      "Selection line 37(2)"
+       17.9156010230179         0.910485933503836   30 30 30 "Selection line"  1      "Selection line 30(1)"
+       17.4040920716113         1.00255754475703   30 30 30 "Selection line"  2      "Selection line 30(2)"
+       15.3273657289003         0.153452685421993   43 30 30 "Selection line"  1      "Selection line 43(1)"
+       15.8081841432225         0.705882352941179   43 30 30 "Selection line"  2      "Selection line 43(2)"
+       10.4897959183673         0.908163265306118   37 43 43 "Selection line"  1      "Selection line 37(1)"
+       10.0816326530612         0.418367346938776   37 43 43 "Selection line"  2      "Selection line 37(2)"
+       9.60204081632653         0.214285714285715   30 43 43 "Selection line"  1      "Selection line 30(1)"
+       7.10204081632653         0.887755102040815   30 43 43 "Selection line"  2      "Selection line 30(2)"
+       13.0102040816327         0.397959183673471   43 43 43 "Selection line"  1      "Selection line 43(1)"
+       13.9081632653061         0.193877551020407   43 43 43 "Selection line"  2      "Selection line 43(2)"
+                              
+       20.5            37 37 37 "Anc"  1      "Selection line 37(1)"
+       20.5            37 37 37 "Anc"  2      "Selection line 37(2)"
+       20.5            30 37 37 "Anc"  1      "Selection line 30(1)"
+       20.5            30 37 37 "Anc"  2      "Selection line 30(2)"
+       20.5            43 37 37 "Anc"  1      "Selection line 43(1)"
+       20.5            43 37 37 "Anc"  2      "Selection line 43(2)"
+       17.8676470588235            37 30 30 "Anc"  1      "Selection line 37(1)"
+       17.8676470588235            37 30 30 "Anc"  2      "Selection line 37(2)"
+       17.8676470588235            30 30 30 "Anc"  1      "Selection line 30(1)"
+       17.8676470588235            30 30 30 "Anc"  2      "Selection line 30(2)"
+       17.8676470588235            43 30 30 "Anc"  1      "Selection line 43(1)"
+       17.8676470588235            43 30 30 "Anc"  2      "Selection line 43(2)"
+       9.73660030627872            37 43 43 "Anc"  1      "Selection line 37(1)"
+       9.73660030627872            37 43 43 "Anc"  2      "Selection line 37(2)"
+       9.73660030627872            30 43 43 "Anc"  1      "Selection line 30(1)"
+       9.73660030627872            30 43 43 "Anc"  2      "Selection line 30(2)"
+       9.73660030627872            43 43 43 "Anc"  1      "Selection line 43(1)"
+       9.73660030627872            43 43 43 "Anc"  2      "Selection line 43(2)"
+                              
+                              
+                              
+                              
+                              
+       21.5783972125436         0.222996515679444    37  "Fluctuation One transfer"        
+       21.4947735191638         0.473867595818817    37  "Fluctuation One transfer"        
+       21.4947735191638         0.418118466898953    37  "Fluctuation Five transfer"        
+       20.2961672473868         0.780487804878046    37  "Fluctuation Five transfer"        
+                              
+                              
+                              
+       16.1010452961672         0.919860627177702    30  "Fluctuation One transfer"        
+       15.5714285714286         0.306620209059236    30  "Fluctuation One transfer"        
+       16.602787456446         0.390243902439021    30  "Fluctuation Five transfer"        
+       15.0696864111498         0.696864111498256    30  "Fluctuation Five transfer"        
+                              
+                              
+                              
+       11.6111111111111         0.277777777777779    43  "Fluctuation One transfer"        
+       13.3333333333333         0.083333333333332    43  "Fluctuation One transfer"        
+       12.0833333333333         0.194444444444445    43  "Fluctuation Five transfer"        
+       11.6111111111111         0.166666666666666    43  "Fluctuation Five transfer"        

@@ -1,0 +1,9 @@
+ "Paper_title" "paper_reference" "fitness_proxy_used"  "data_extraction_method " "Mean_sex_not_considered" "standard_error" "Confidence_interval" "Mean_male" "Standard_error_male" "Mean_female" "Standard_error_female"  "median" "standard_deviation" "variance" "effect_sizes" "Selection_temperature" "Assay_temperature" "Control_or_selection_line"  "Replicate" "Male_data" "Female_data" "Culture_plate" "Sex_not_considered_data"
+9 "The Effect of Population Bottleneck Size and Selective Regime
+on Genetic Diversity and Evolvability in Bacteria" "(Wein and Dagan, 2019)" "relative fitness through competition assays "  "From Graph "                     
+      1.46348111395647 0.109090909090909           37 37 "L"      
+      1.3032490396927 0.068181818181819           37 37 "M "      
+      1.22757202304738 0.051818181818181           37 37 "S "      
+      1.23697823303457 0.040909090909091           20 20 "L"      
+      1.14766005121639 0.049090909090909           20 20 "M "      
+      1.18106914212548 0.040913892445583           20 20 "S "      

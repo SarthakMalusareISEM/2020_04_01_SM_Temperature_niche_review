@@ -1,0 +1,10 @@
+ "Paper_title" "paper_reference" "fitness_proxy_used"  "data_extraction_method " "Mean_sex_not_considered" "standard_error" "Confidence_interval" "Mean_male" "Standard_error_male " "Mean_female" "Standard_error_female" "median_female" "median_male" "standard_deviation" "variance" "effect_sizes" "Selection_temperature" "Assay_temperature" "Control_or_selection_line" "Time_series" "Replicate" "Male_data" "Female_data" "Culture_plate" "Sex_not_considered_data" "Technical_replicate"
+2 "THERMAL SENSITIVITY OF DROSOPHILA MELANOGASTER RESPONDS RAPIDLY TO LABORATORY NATURAL SELECTION" "(Huey et al., 1991)" "Development time "  "From table in paper "  0.019  23.64         16.5 16.5 "dev temp 16.5"       
+       0.02  24.26         25 16.5 "dev temp 25"       
+       0.02  9.7         16.5 25 "dev temp 16.5"       
+       0.021  9.57         25 25 "dev temp 25"       
+                           
+       0.019    23       16.5 16.5 "dev temp 16.5"       
+       0.02    23.51       25 16.5 "dev temp 25"       
+       0.02    9.49       16.5 25 "dev temp 16.5"       
+       0.021    9.35       25 25 "dev temp 25"       

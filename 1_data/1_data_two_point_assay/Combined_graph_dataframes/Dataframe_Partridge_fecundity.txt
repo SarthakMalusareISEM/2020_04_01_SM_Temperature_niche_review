@@ -1,0 +1,3 @@
+"Paper_id" "Sel_temp" "New_X_axis" "Rel_fitness" "CI" "Replicate"
+"1" "Partridge_fecundity" "16" "0" "1.38533674339301" "366" NA
+"2" "Partridge_fecundity" "16" "9" "0.855879752431477" "83" NA
