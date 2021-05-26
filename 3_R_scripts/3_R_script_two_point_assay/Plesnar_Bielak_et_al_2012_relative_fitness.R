@@ -4,9 +4,8 @@ library(dplyr)
 library(ggpubr)
 
 
-setwd("/home/sarthak/Documents/2020_04_01_SM_Temperature_niche_review/Graphs_and_R_codes/Two _point_papers/1_data_two_point_assay")
 
-df<-read.table(file="Plesnar_Bielak_et_al_2012.txt" ,header= TRUE,sep = " ")
+df<-read.table(file="../../1_data/1_data_two_point_assay/Plesnar_Bielak_et_al_2012.txt" ,header= TRUE,sep = " ")
 df$New_X_axis=df$Assay_temperature-28               
 
 
@@ -51,7 +50,7 @@ CI<-df1$Confidence_interval.s
 Paper_id<-replicate(2,"Plesnar_fecundity_monogamous")
 Replicate<-df1$Replicate.s
 Plesnar_fecundity_monogamous<-cbind(Paper_id,Sel_temp,New_X_axis,Rel_fitness,CI,Replicate)
-write.table(Plesnar_fecundity_monogamous,file = "Dataframe_Plesnar_fecundity_monogamous.txt",sep = " ")
+write.table(Plesnar_fecundity_monogamous,file = "../../1_data/1_data_two_point_assay/Combined_graph_dataframes/Dataframe_Plesnar_fecundity_monogamous.txt",sep = " ")
 ##########################################
 df3 <- df%>% slice(1:9)
 
@@ -82,7 +81,7 @@ CI<-df4$Confidence_interval.s
 Paper_id<-replicate(2,"Plesnar_fecundity_polygamous")
 Replicate<-df4$Replicate.s
 Plesnar_fecundity_polygamous<-cbind(Paper_id,Sel_temp,New_X_axis,Rel_fitness,CI,Replicate)
-write.table(Plesnar_fecundity_polygamous,file = "Dataframe_Plesnar_fecundity_polygamous.txt",sep = " ")
+write.table(Plesnar_fecundity_polygamous,file = "../../1_data/1_data_two_point_assay/Combined_graph_dataframes/Dataframe_Plesnar_fecundity_polygamous.txt",sep = " ")
 
 ####################################################33333
 df5 <- df%>% slice(12:19)
@@ -114,7 +113,7 @@ CI<-df1$Confidence_interval.s
 Paper_id<-replicate(2,"Plesnar_fertile_monogamous")
 Replicate<-df6$Replicate.s
 Plesnar_fertile_monogamous<-cbind(Paper_id,Sel_temp,New_X_axis,Rel_fitness,CI,Replicate)
-write.table(Plesnar_fertile_monogamous,file = "Data_frame_Plesnar_fertile_monogamous.txt",sep = " ")
+write.table(Plesnar_fertile_monogamous,file = "../../1_data/1_data_two_point_assay/Combined_graph_dataframes/Data_frame_Plesnar_fertile_monogamous.txt",sep = " ")
 #######################################################33
 
 
@@ -150,6 +149,6 @@ CI<-df1$Confidence_interval.s
 Paper_id<-replicate(2,"Plesnar_fertile_polygamous")
 Replicate<-df8$Replicate.s
 Plesnar_fertile_polygamous<-cbind(Paper_id,Sel_temp,New_X_axis,Rel_fitness,CI,Replicate)
-write.table(Plesnar_fertile_polygamous,file = "Dataframe_Plesnar_fertile_polygamous.txt",sep = " ")
+write.table(Plesnar_fertile_polygamous,file = "../../1_data/1_data_two_point_assay/Combined_graph_dataframes/Dataframe_Plesnar_fertile_polygamous.txt",sep = " ")
 
 ####################################################3333

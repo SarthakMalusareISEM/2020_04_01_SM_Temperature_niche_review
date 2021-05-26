@@ -4,9 +4,8 @@ library(dplyr)
 library(ggpubr)
 
 
-setwd("/home/sarthak/Documents/2020_04_01_SM_Temperature_niche_review/Graphs_and_R_codes/Multipoint_point_assay_papers/1_data_multipoint_assay")
 
-df<-read.table(file="Lenski_and_Bennett_1993.txt" ,header= TRUE,sep = " ")
+df<-read.table(file="../../1_data/1_data_multipoint_assay/Lenski_and_Bennett_1993.txt" ,header= TRUE,sep = " ")
 
 
 df0 <- df%>% slice(1:28)
@@ -33,7 +32,7 @@ Paper_id<-replicate(28,"Lenski_and _Bennett")
 
 Data_frame_Lenski_and_Bennett<-cbind(Paper_id,Sel_temp,New_X_axis,Rel_fitness,CI,Replicate)
 
-write.table(Data_frame_Lenski_and_Bennett,file = "Data_frame_Lenski_and_Bennett.txt",sep = " ")
+write.table(Data_frame_Lenski_and_Bennett,file = "../../1_data/1_data_multipoint_assay/Combined_graph_dataframes/Data_frame_Lenski_and_Bennett.txt",sep = " ")
 
 
 

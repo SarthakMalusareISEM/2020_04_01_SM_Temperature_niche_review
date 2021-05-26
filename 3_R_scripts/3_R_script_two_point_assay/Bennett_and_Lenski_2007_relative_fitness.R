@@ -4,9 +4,8 @@ library(dplyr)
 library(ggpubr)
 
 
-setwd("/home/sarthak/Documents/2020_04_01_SM_Temperature_niche_review/Graphs_and_R_codes/Two _point_papers/1_data_two_point_assay")
 
-df<-read.table(file="Bennett_and_Lenski_2007.txt" ,header= TRUE,sep = " ")
+df<-read.table(file="../../1_data/1_data_two_point_assay/Bennett_and_Lenski_2007.txt" ,header= TRUE,sep = " ")
 df$New_X_axis=df$Assay_temperature-df$Selection_temperature 
 
 
@@ -29,4 +28,4 @@ CI<-df$Confidence_interval
 Paper_id<-replicate(17,"Bennett_lenski")
 Replicate<-df$Replicate
 Bennett_lenski<-cbind(Paper_id,Sel_temp,New_X_axis,Rel_fitness,CI,Replicate)
-write.table(Bennett_lenski,file = "Dataframe_Bennett_lenski.txt",sep = " ")
+write.table(Bennett_lenski,file = "../../1_data/1_data_two_point_assay/Combined_graph_dataframes/Dataframe_Bennett_lenski.txt",sep = " ")

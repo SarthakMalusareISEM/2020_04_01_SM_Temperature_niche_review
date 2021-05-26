@@ -3,9 +3,8 @@ library(reshape)
 library(dplyr)
 library(ggpubr)
 
-setwd("/home/sarthak/Documents/2020_04_01_SM_Temperature_niche_review/Graphs_and_R_codes/Multipoint_point_assay_papers/1_data_multipoint_assay")
 
-df<-read.table(file="Cooper_et_al_2001.txt" ,header= TRUE,sep = " ")
+df<-read.table(file="../../1_data/1_data_multipoint_assay/Cooper_et_al_2001.txt" ,header= TRUE,sep = " ")
 m<-1.96
 t<-1
 calc_SE<- function(x) x/m
@@ -57,5 +56,5 @@ Replicate<-df0$Replicate_s
 Paper_id<-replicate(9,"Cooper")
 
 Data_frame_Cooper<-cbind(Paper_id,Sel_temp,New_X_axis,Rel_fitness,CI,Replicate)
-write.table(Data_frame_Cooper,file = "Data_frame_Cooper.txt",sep = " ")
+write.table(Data_frame_Cooper,file = "../../1_data/1_data_multipoint_assay/Combined_graph_dataframes/Data_frame_Cooper.txt",sep = " ")
 

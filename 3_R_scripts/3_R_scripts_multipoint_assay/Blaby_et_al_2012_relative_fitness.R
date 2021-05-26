@@ -4,11 +4,9 @@ library(dplyr)
 library(ggpubr)
 
 
-setwd("/home/sarthak/Documents/2020_04_01_SM_Temperature_niche_review/Graphs_and_R_codes/Multipoint_point_assay_papers/1_data_multipoint_assay")
 
-df<-read.table(file="Blaby_et_al_2012.txt" ,header= TRUE,sep = " ")
+df<-read.table(file="../../1_data/1_data_multipoint_assay/Blaby_et_al_2012.txt",header= TRUE,sep = " ")
 
-# Adaptation of phytoplankton to a decade of experimental warming linked to increased photosynthesis	
 df0 <- df%>% slice(3:16)
 df0$New_X_axis=df0$Assay_temperature-49.7 
 Selection_line <- df0 %>%
@@ -38,7 +36,7 @@ CI<-df0$Confidence_interval._s
 Paper_id<-replicate(7,"Blaby_1")
 Replicate<-df0$Replicate_s
 Data_frame_Blaby_1<-cbind(Paper_id,Sel_temp,New_X_axis,Rel_fitness,CI,Replicate)
-write.table(Data_frame_Blaby_1,file = "Data_frame_Blaby_1.txt",sep = " ")
+write.table(Data_frame_Blaby_1,file = "../../1_data/1_data_multipoint_assay/Combined_graph_dataframes/Data_frame_Blaby_1.txt",sep = " ")
 ################################################################################################################
 
 
@@ -73,7 +71,7 @@ CI<-df0$Confidence_interval._s
 Paper_id<-replicate(7,"Blaby_2")
 Replicate<-df0$Replicate_s
 Data_frame_Blaby_2<-cbind(Paper_id,Sel_temp,New_X_axis,Rel_fitness,CI,Replicate)
-write.table(Data_frame_Blaby_2,file = "Data_frame_Blaby_2.txt",sep = " ")
+write.table(Data_frame_Blaby_2,file = "../../1_data/1_data_multipoint_assay/Combined_graph_dataframes/Data_frame_Blaby_2.txt",sep = " ")
 
 ########################################################################################################################
 #df2 <- df%>% slice(39:54)

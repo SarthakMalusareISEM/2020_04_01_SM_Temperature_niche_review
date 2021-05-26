@@ -4,9 +4,8 @@ library(dplyr)
 library(ggpubr)
 
 
-setwd("/home/sarthak/Documents/2020_04_01_SM_Temperature_niche_review/Graphs_and_R_codes/Two _point_papers/1_data_two_point_assay")
 
-df<-read.table(file="Partridge_et_al_1995.txt" ,header= TRUE,sep = " ")
+df<-read.table(file="../../1_data/1_data_two_point_assay/Partridge_et_al_1995.txt" ,header= TRUE,sep = " ")
 
 df$New_X_axis=df$Assay_temperature-16
 
@@ -43,7 +42,7 @@ CI<-df1$Confidence_interval.s
 Paper_id<-replicate(2,"Partridge_longivity_male")
 Replicate<-df1$Replicate.s
 Partridge_longivity_male<-cbind(Paper_id,Sel_temp,New_X_axis,Rel_fitness,CI,Replicate)
-write.table(Partridge_longivity_male,file = "Dataframe_Partridge_longivity_male.txt",sep = " ")
+write.table(Partridge_longivity_male,file = "../../1_data/1_data_two_point_assay/Combined_graph_dataframes/Dataframe_Partridge_longivity_male.txt",sep = " ")
 #############################################################################################3333
 df2 <- df%>% slice(1:6)
 
@@ -71,7 +70,7 @@ CI<-df3$Confidence_interval.s
 Paper_id<-replicate(2,"Partridge_longivity_female")
 Replicate<-df3$Replicate.s
 Partridge_longivity_female<-cbind(Paper_id,Sel_temp,New_X_axis,Rel_fitness,CI,Replicate)
-write.table(Partridge_longivity_female,file = "Dataframe_Partridge_longivity_female.txt",sep = " ")
+write.table(Partridge_longivity_female,file = "../../1_data/1_data_two_point_assay/Combined_graph_dataframes/Dataframe_Partridge_longivity_female.txt",sep = " ")
 #########################################################################################################33
 df4 <- df%>% slice(8:11)
 m=1.96
@@ -112,7 +111,7 @@ CI<-df5$Confidence_interval.s
 Paper_id<-replicate(2,"Partridge_fecundity")
 Replicate<-df5$Replicate.s
 Partridge_fecundity<-cbind(Paper_id,Sel_temp,New_X_axis,Rel_fitness,CI,Replicate)
-write.table(Partridge_fecundity,file = "Dataframe_Partridge_fecundity.txt",sep = " ")
+write.table(Partridge_fecundity,file = "../../1_data/1_data_two_point_assay/Combined_graph_dataframes/Dataframe_Partridge_fecundity.txt",sep = " ")
 #############################################################################################3333
 
 df7 <- df%>% slice(14:17)
@@ -156,5 +155,5 @@ CI<-df8$Confidence_interval.s
 Paper_id<-replicate(2,"Partridge_lifetime_progeny")
 Replicate<-df8$Replicate.s
 Partridge_lifetime_progeny<-cbind(Paper_id,Sel_temp,New_X_axis,Rel_fitness,CI,Replicate)
-write.table(Partridge_lifetime_progeny,file = "Dataframe_Partridge_lifetime_progeny.txt",sep = " ")
+write.table(Partridge_lifetime_progeny,file = "../../1_data/1_data_two_point_assay/Combined_graph_dataframes/Dataframe_Partridge_lifetime_progeny.txt",sep = " ")
 

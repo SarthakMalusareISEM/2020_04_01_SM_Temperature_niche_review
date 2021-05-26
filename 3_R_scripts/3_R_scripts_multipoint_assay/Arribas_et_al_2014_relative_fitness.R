@@ -4,12 +4,11 @@ library(dplyr)
 library(ggpubr)
 library(tibble)
 
-setwd("/home/sarthak/Documents/2020_04_01_SM_Temperature_niche_review/Graphs_and_R_codes/Multipoint_point_assay_papers/1_data_multipoint_assay")
 
-df<-read.table(file="Arribas_et_al_2014.txt" ,header= TRUE,sep = " ")
+df<-read.table(file="../../1_data/1_data_multipoint_assay/Arribas_et_al_2014.txt" ,header= TRUE,sep = " ")
 
 
-# Adaptation of phytoplankton to a decade of experimental warming linked to increased photosynthesis	
+	
 df1 <- df%>% slice(2:38)
 df1$standard_error = df1$standard_deviation/sqrt(3)
 
@@ -50,7 +49,7 @@ Data_frame_Arribas<-cbind(Paper_id,Sel_temp,New_X_axis,Rel_fitness,CI,Replicate)
 namevector <- c("CI")
 Data_frame_Arribas[ , namevector] <- NA
 
-write.table(Data_frame_Arribas,file = "Data_frame_Arribas.txt",sep = " ")
+write.table(Data_frame_Arribas,file = "../../1_data/1_data_multipoint_assay/Combined_graph_dataframes/Data_frame_Arribas.txt",sep = " ")
 
 
 

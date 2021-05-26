@@ -4,9 +4,8 @@ library(dplyr)
 library(ggpubr)
 
 
-setwd("/home/sarthak/Documents/2020_04_01_SM_Temperature_niche_review/Graphs_and_R_codes/Multipoint_point_assay_papers/1_data_multipoint_assay")
 
-df<-read.table(file="Santos_2007.txt" ,header= TRUE,sep = " ")
+df<-read.table(file="../../1_data/1_data_multipoint_assay/Santos_2007.txt" ,header= TRUE,sep = " ")
 
 # Adaptation of phytoplankton to a decade of experimental warming linked to increased photosynthesis	
 df0 <- df%>% slice(2:10)
@@ -30,5 +29,5 @@ Paper_id<-replicate(9,"Santos")
 Replicate<-df0$Replicate
 
 Data_frame_Santos<-cbind(Paper_id,Sel_temp,New_X_axis,Rel_fitness,CI,Replicate)
-write.table(Data_frame_Santos,file = "Data_frame_Santos.txt",sep = " ")
+write.table(Data_frame_Santos,file = "../../1_data/1_data_multipoint_assay/Combined_graph_dataframes/Data_frame_Santos.txt",sep = " ")
 

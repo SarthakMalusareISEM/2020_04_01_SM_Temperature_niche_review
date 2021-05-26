@@ -4,9 +4,8 @@ library(dplyr)
 library(ggpubr)
 
 
-setwd("/home/sarthak/Documents/2020_04_01_SM_Temperature_niche_review/Graphs_and_R_codes/Multipoint_point_assay_papers/1_data_multipoint_assay")
 
-df<-read.table(file="Mongold_et_al.txt" ,header= TRUE,sep = " ")
+df<-read.table(file="../../1_data/1_data_multipoint_assay/Mongold_et_al.txt" ,header= TRUE,sep = " ")
 
 # Adaptation of phytoplankton to a decade of experimental warming linked to increased photosynthesis	
 df0 <- df%>% slice(2:6)
@@ -35,4 +34,4 @@ Paper_id<-replicate(5,"Mongold")
 
 Data_frame_Mongold<-cbind(Paper_id,Sel_temp,New_X_axis,Rel_fitness,CI,Replicate)
 
-write.table(Data_frame_Mongold,file = "Data_frame_Mongold.txt",sep = " ")
+write.table(Data_frame_Mongold,file = "../../1_data/1_data_multipoint_assay/Combined_graph_dataframes/Data_frame_Mongold.txt",sep = " ")

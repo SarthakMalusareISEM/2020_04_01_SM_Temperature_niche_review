@@ -3,9 +3,8 @@ library(reshape)
 library(dplyr)
 library(ggpubr)
 
-setwd("/home/sarthak/Documents/2020_04_01_SM_Temperature_niche_review/Graphs_and_R_codes/Two _point_papers/1_data_two_point_assay")
 
-df<-read.table(file="Huey_et_al_1991.txt" ,header= TRUE,sep = " ")
+df<-read.table(file="../../1_data/1_data_two_point_assay/Huey_et_al_1991.txt" ,header= TRUE,sep = " ")
 df$New_X_axis=df$Assay_temperature-16.5
 
 m=1.96
@@ -55,7 +54,7 @@ CI<-df1$Confidence_interval.s
 Paper_id<-replicate(2,"Huey_male")
 Replicate<-df1$Replicate.s
 Data_frame_Huey_male<-cbind(Paper_id,Sel_temp,New_X_axis,Rel_fitness,CI,Replicate)
-write.table(Data_frame_Huey_male,file = "Data_frame_Huey_male.txt",sep = " ")
+write.table(Data_frame_Huey_male,file = "../../1_data/1_data_two_point_assay/Combined_graph_dataframes/Data_frame_Huey_male.txt",sep = " ")
 
 ###########################################################################################################################################
 
@@ -100,7 +99,7 @@ CI<-df3$Confidence_interval.s
 Paper_id<-replicate(2,"Huey_female")
 Replicate<-df3$Replicate.s
 Data_frame_Huey_female<-cbind(Paper_id,Sel_temp,New_X_axis,Rel_fitness,CI,Replicate)
-write.table(Data_frame_Huey_female,file = "Data_frame_Huey_female.txt",sep = " ")
+write.table(Data_frame_Huey_female,file = "../../1_data/1_data_two_point_assay/Combined_graph_dataframes/Data_frame_Huey_female.txt",sep = " ")
 ######################################################################################################################################3333333
 
 b<- ggplot(df3, aes(x=Assay_temperature, y=Relative_fitness_female ,fill= )) +
